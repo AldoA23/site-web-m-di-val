@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -96,7 +97,9 @@ a:hover {
 }
 aside {
     grid-area: aside;
-    background-color: mediumaquamarine;
+    background-image: url('images/sfondo_menu.jpg');
+    background-size: cover; 
+    background-position: center; 
     padding: 10px;
     color: white;
     
